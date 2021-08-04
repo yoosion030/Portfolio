@@ -1,0 +1,162 @@
+@import "reset.css";
+
+body {
+    width: 100%;
+    height : 100%;
+    font-family : Roboto;
+}
+
+section {
+    width: 100%;
+    height: 940px;
+}
+
+.main {
+    background-color: #ffffff;
+    color: #000000ee;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.normal {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.title {
+    position: absolute;
+    width: 600px;
+    height: 136px;
+    left: 164px;
+    top: 309px;
+}
+
+.date {
+    position: absolute;
+    width: 298px;
+    height: 49px;
+    left: 164px;
+    top: 445px;
+}
+
+.white_point {
+    color: #FFE500;
+}
+
+.about,
+.skills,
+footer {
+    position: relative;
+    background-color: #000000ee;
+    color: #ffffff;
+}
+
+.black_point {
+    color: #FFE176;
+}
+
+
+.grow {
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 164px;
+    top: 236px;
+}
+
+
+.best {
+    position: absolute;
+    width: 930px;
+    height: 81px;
+    left: 164px;
+    top: 179px;
+
+}
+.aboutMe {
+    position: absolute;
+    width: 600px;
+    height: 306px;
+    left: 1000px;
+    top: 218px;
+}
+
+.skill {
+    position: absolute;
+    width: 310px;
+    height: 69px;
+    left: 164px;
+    top: 329px;
+}
+
+.skill2 {
+    position: absolute;
+    width: 285px;
+    height: 69px;
+    left: 1000px;
+    top: 329px;
+    
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 68px;
+    
+    color: #FFFFFF;
+    
+}
+
+.explain {
+    position: absolute;
+    width: 600px;
+    height: 310px;
+    left: 164px;
+    top: 429px;
+    
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.explain2 {
+    position: absolute;
+    width: 600px;
+    height: 310px;
+    left: 1000px;
+    top: 429px;
+}
+.experience {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.projects {
+    background-color: #ffffff;
+    color: #000000ee;
+    position: flex;
+}
+
+.project {
+    width:320px;
+    height:200px;
+    font-size: 25px;
+}
+.number{
+    font-size: 25px;
+    line-height: 29px;
+}
+.line {
+    margin: 0px 0px 18px 0px;
+
+}
+footer {
+    width: 100%;
+    height: 545px;
+}
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
