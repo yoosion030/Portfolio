@@ -160,3 +160,22 @@ footer {
     width: 100%;
     justify-content: space-around;
 }
+.view {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+    padding:100px 0px 0px 100px;
+}
+.icons {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.icon,
+.icon >img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
