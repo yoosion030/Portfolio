@@ -83,8 +83,6 @@ footer {
     height: 306px;
 }
 
-
-
 .best {
     margin: 179px 0 0 164px;
 }
@@ -121,7 +119,6 @@ footer {
 
 .line {
     margin: 0px 0px 18px 0px;
-
 }
 
 footer {
@@ -158,4 +155,19 @@ footer {
 
 .e-mail {
     margin-left: 10px;
+}
+
+.haha {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+}
+.link{
+    filter: brightness(3);
+}
+.line {
+    filter: brightness(1);
+}
+.project:hover{
+    filter: brightness(0);
 }
