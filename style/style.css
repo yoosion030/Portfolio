@@ -48,6 +48,7 @@ footer {
 .medium {
     font-weight: bold;
     font-size: 25px;
+    line-height: 29px;
 }
 
 .normal {
@@ -77,7 +78,6 @@ footer {
     flex-wrap: wrap;
 }
 
-
 .aboutMe {
     width: 594px;
     height: 306px;
@@ -99,7 +99,6 @@ footer {
 
 .experience {
     width: 940px;
-
     justify-content: space-between;
 }
 
@@ -114,11 +113,13 @@ footer {
 }
 
 .number {
-    line-height: 29px;
+    margin-left: 3px;
 }
 
 .line {
     margin: 0px 0px 18px 0px;
+    color:#bdbdbd;
+
 }
 
 footer {
@@ -154,7 +155,7 @@ footer {
 }
 
 .e-mail {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .haha {
@@ -162,12 +163,23 @@ footer {
     justify-content: space-between;
     height: 32px;
 }
+
 .link{
     filter: brightness(3);
 }
-.line {
-    filter: brightness(1);
-}
-.project:hover{
+
+.link:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
     filter: brightness(0);
+}
+
+.project:hover{
+    transform: scale(1.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover{
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
 }
