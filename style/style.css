@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body {
-    font-family: Roboto;
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 section {
@@ -12,30 +12,29 @@ section {
 .main,
 .projects {
     background-color: #ffffff;
-    color: #000000;
+    color: #242424;
 }
 
 .about,
 .skills,
 footer {
-    background-color: #000000ee;
+    background-color: #242424;
     color: #ffffff;
 }
 
 .value,
 .experience,
-.make,
 .box,
+.inline,
 .icons {
     display: flex;
     flex-direction: row;
 }
 
-.second_title,
 .about,
 .skills,
 .projects,
-.view {
+.contact {
     display: flex;
     flex-direction: column;
 }
@@ -43,6 +42,7 @@ footer {
 .bold {
     font-weight: bold;
     font-size: 58px;
+    line-height: 80px;
 }
 
 .medium {
@@ -54,7 +54,7 @@ footer {
 .normal {
     font-weight: 500;
     font-size: 25px;
-    line-height: 29px;
+    line-height: 40px;
 }
 
 .container {
@@ -62,49 +62,50 @@ footer {
 }
 
 .white_point {
-    color: #FFE500;
+    color:#fdd835;
+    font-family: normal;
 }
 
 .black_point {
     color: #FFE176;
+    font-family: normal;
 }
 
-.main {
-    height: 600px;
-}
-
-.about {
-    justify-content: space-between;
-    flex-wrap: wrap;
+.main,
+.aboutMe {
+    height: 620px;
 }
 
 .aboutMe {
-    width: 594px;
     height: 306px;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 .best {
     margin: 179px 0 0 164px;
 }
 
-.skill {
-    margin: 70px 0 0 164px;
-}
-
 .explain {
-    margin-top: 26px;
-    font-size: 25px;
-    line-height: 29px;
+    width: 600px;
+    line-height: 40px;
 }
 
 .experience {
-    width: 940px;
+    width: 60%;
     justify-content: space-between;
 }
 
+.projects {
+    height: 1400px;
+}
+
 .make {
-    margin: 220px 0 50px 165px;
-    flex-wrap: wrap;
+    margin: 179px 0 70px 164px;
+}
+
+.skill {
+    margin: 70px 0 0 164px;
 }
 
 .project {
@@ -118,8 +119,7 @@ footer {
 
 .line {
     margin: 0px 0px 18px 0px;
-    color:#bdbdbd;
-
+    color: #bdbdbd;
 }
 
 footer {
@@ -129,24 +129,22 @@ footer {
 
 .box {
     width: 70%;
-    margin-left: 165px;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 200px;
+    margin: 0 0 200px 164px;
 }
 
-.view {
+.contact {
     height: 80px;
     justify-content: space-between;
-    padding: 100px 0 0 164px;
+    padding: 70px 0 0 164px;
 }
 
 .icons {
     width: 100px;
     justify-content: space-between;
+    align-items: center;
 }
 
-.icon,
 .logo {
     display: inline-block;
     width: 32px;
@@ -156,30 +154,28 @@ footer {
 
 .e-mail {
     margin-left: 20px;
+    height: 50px;
 }
 
-.haha {
-    display: flex;
+.inline {
     justify-content: space-between;
     height: 32px;
 }
 
-.link{
+.link {
     filter: brightness(3);
 }
 
-.link:hover{
-    transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+.link:hover {
     filter: brightness(0);
 }
 
-.project:hover{
+.project:hover {
     transform: scale(1.08);
     transition: all 0.3s ease-in-out;
 }
 
-.icon:hover{
-    transform: scale(1.4);
+.logo:hover {
+    transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
