@@ -1,5 +1,4 @@
 @import "reset.css";
-
 body {
     font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
@@ -42,7 +41,7 @@ footer {
 .bold {
     font-weight: bold;
     font-size: 58px;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 .medium {
@@ -75,7 +74,9 @@ footer {
 .aboutMe {
     height: 620px;
 }
-
+.grow {
+    line-height: 80px;
+}
 .aboutMe {
     height: 306px;
     justify-content: center;
