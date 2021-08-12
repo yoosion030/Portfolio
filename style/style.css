@@ -1,4 +1,5 @@
 @import "reset.css";
+
 body {
     font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
@@ -61,7 +62,7 @@ footer {
 }
 
 .white_point {
-    color:#fdd835;
+    color: #fdd835;
     font-family: normal;
 }
 
@@ -74,17 +75,19 @@ footer {
 .aboutMe {
     height: 620px;
 }
+
 .grow {
     line-height: 80px;
 }
+
 .aboutMe {
     height: 306px;
     justify-content: center;
     margin-top: 70px;
 }
 
-.best {
-    margin: 179px 0 0 164px;
+.best,.make {
+    margin: 179px 0 70px 164px;
 }
 
 .explain {
@@ -101,12 +104,8 @@ footer {
     height: 1400px;
 }
 
-.make {
-    margin: 179px 0 70px 164px;
-}
-
 .skill {
-    margin: 70px 0 0 164px;
+    margin: 0 0 0 164px;
 }
 
 .project {
@@ -179,4 +178,65 @@ footer {
 .logo:hover {
     transform: scale(1.2);
     transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width : 1500px) {
+    .best {
+        margin: 179px 0 20px 164px;
+    }
+
+    .value {
+        flex-direction: column;
+    }
+
+    .skill {
+        margin-top: 50px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width : 1000px) {
+    .container {
+        margin: 180px 0 0 80px;
+    }
+
+    .projects {
+        height: 1800px;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .best,.make {
+        margin: 180px 0 20px 64px;
+    }
+    .skill {
+        margin: 50px 0 0 64px;
+    }
+    .value {
+        flex-direction: column;
+    }
+
+    .projects {
+        height: 2000px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 50px 0 0 64px;
+    }
+    .contact {
+        padding: 50px 0 0 64px;
+    }
 }
