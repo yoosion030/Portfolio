@@ -86,7 +86,7 @@ footer {
     margin-top: 70px;
 }
 
-.best,.make {
+.title {
     margin: 179px 0 70px 164px;
 }
 
@@ -181,22 +181,20 @@ footer {
 }
 
 @media screen and (max-width : 1500px) {
-    .best {
+    .title {
         margin: 179px 0 20px 164px;
     }
 
-    .value {
-        flex-direction: column;
-    }
-
-    .skill {
+    
+    .skill,
+    .box {
         margin-top: 50px;
     }
-
+    
+    .value,
     .box {
         flex-direction: column;
     }
-
     .wrap {
         display: flex;
         flex-direction: row;
@@ -205,6 +203,7 @@ footer {
 }
 
 @media screen and (max-width : 1000px) {
+
     .container {
         margin: 180px 0 0 80px;
     }
@@ -213,29 +212,19 @@ footer {
         height: 1800px;
     }
 
-    .wrap {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .best,.make {
+    .title {
         margin: 180px 0 20px 64px;
     }
-    .skill {
+
+    .skill,
+    .box {
         margin: 50px 0 0 64px;
-    }
-    .value {
-        flex-direction: column;
     }
 
     .projects {
-        height: 2000px;
+        height: 1000px;
     }
 
-    .box {
-        flex-direction: column;
-        margin: 50px 0 0 64px;
-    }
     .contact {
         padding: 50px 0 0 64px;
     }
@@ -245,10 +234,12 @@ footer {
     .projects {
         height: 1700px;
     }
+
     .wrap {
         display: flex;
         flex-direction: column;
     }
+
     .project {
         margin: 0 auto;
     }
