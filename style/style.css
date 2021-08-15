@@ -52,7 +52,6 @@ footer {
 }
 
 .normal {
-    font-weight: 500;
     font-size: 25px;
     line-height: 40px;
 }
@@ -71,8 +70,7 @@ footer {
     font-family: normal;
 }
 
-.main,
-.aboutMe {
+.main {
     height: 620px;
 }
 
@@ -81,18 +79,26 @@ footer {
 }
 
 .aboutMe {
-    height: 306px;
     justify-content: center;
     margin-top: 70px;
 }
 
-.title {
-    margin: 179px 0 70px 164px;
+.title,
+.experience {
+    margin: 179px 0 20px 164px;
+}
+
+.value {
+    margin-top: 50px;
 }
 
 .explain {
     width: 600px;
     line-height: 40px;
+}
+
+.skill {
+    margin: 0 0 0 164px;
 }
 
 .experience {
@@ -101,11 +107,7 @@ footer {
 }
 
 .projects {
-    height: 1400px;
-}
-
-.skill {
-    margin: 0 0 0 164px;
+    height: 1100px;
 }
 
 .project {
@@ -130,13 +132,13 @@ footer {
 .box {
     width: 70%;
     justify-content: space-between;
-    margin: 0 0 200px 164px;
+    margin: 50px 0 150px 164px;
 }
 
 .contact {
     height: 80px;
     justify-content: space-between;
-    padding: 70px 0 0 164px;
+    padding: 100px 0 0 164px;
 }
 
 .icons {
@@ -185,16 +187,17 @@ footer {
         margin: 179px 0 20px 164px;
     }
 
-    
+
     .skill,
     .box {
         margin-top: 50px;
     }
-    
+
     .value,
     .box {
         flex-direction: column;
     }
+
     .wrap {
         display: flex;
         flex-direction: row;
@@ -202,7 +205,7 @@ footer {
 
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 960px) {
 
     .container {
         margin: 180px 0 0 80px;
@@ -217,6 +220,7 @@ footer {
     }
 
     .skill,
+    .experience,
     .box {
         margin: 50px 0 0 64px;
     }
