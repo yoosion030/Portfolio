@@ -83,13 +83,12 @@ footer {
     margin-top: 70px;
 }
 
-.title,
-.experience {
+.title{
     margin: 179px 0 20px 164px;
 }
 
 .value {
-    margin-top: 50px;
+    margin:50px 0 0 164px;
 }
 
 .explain {
@@ -187,7 +186,6 @@ footer {
         margin: 179px 0 20px 164px;
     }
 
-
     .skill,
     .box {
         margin-top: 50px;
@@ -219,8 +217,7 @@ footer {
         margin: 180px 0 20px 64px;
     }
 
-    .skill,
-    .experience,
+    .value,
     .box {
         margin: 50px 0 0 64px;
     }
@@ -238,7 +235,7 @@ footer {
     .projects {
         height: 1700px;
     }
-
+    .experience,
     .wrap {
         display: flex;
         flex-direction: column;
