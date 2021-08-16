@@ -22,7 +22,7 @@ footer {
     color: #ffffff;
 }
 
-.value,
+.skill,
 .experience,
 .box,
 .inline,
@@ -41,14 +41,14 @@ footer {
 
 .bold {
     font-weight: bold;
-    font-size: 58px;
+    font-size: 60px;
     line-height: 60px;
 }
 
 .medium {
     font-weight: bold;
     font-size: 25px;
-    line-height: 29px;
+    line-height: 30px;
 }
 
 .normal {
@@ -57,7 +57,7 @@ footer {
 }
 
 .container {
-    margin: 309px 0 0 164px;
+    margin: 310px 0 0 164px;
 }
 
 .white_point {
@@ -83,21 +83,17 @@ footer {
     margin-top: 70px;
 }
 
-.title{
-    margin: 179px 0 20px 164px;
+.title {
+    margin: 180px 0 20px 164px;
 }
 
 .value {
-    margin:50px 0 0 164px;
+    margin: 50px 0 0 164px;
 }
 
 .explain {
     width: 600px;
     line-height: 40px;
-}
-
-.skill {
-    margin: 0 0 0 164px;
 }
 
 .experience {
@@ -119,7 +115,7 @@ footer {
 }
 
 .line {
-    margin: 0px 0px 18px 0px;
+    margin: 0px 0px 20px 0px;
     color: #bdbdbd;
 }
 
@@ -182,16 +178,14 @@ footer {
 }
 
 @media screen and (max-width : 1500px) {
-    .title {
-        margin: 179px 0 20px 164px;
-    }
 
-    .skill,
-    .box {
+    .box,
+    .value {
         margin-top: 50px;
     }
 
-    .value,
+    .experience,
+    .skill,
     .box {
         flex-direction: column;
     }
@@ -213,11 +207,11 @@ footer {
         height: 1800px;
     }
 
-    .title {
-        margin: 180px 0 20px 64px;
+    .title,
+    .value{
+        margin-left: 64px;
     }
 
-    .value,
     .box {
         margin: 50px 0 0 64px;
     }
@@ -235,6 +229,7 @@ footer {
     .projects {
         height: 1700px;
     }
+
     .experience,
     .wrap {
         display: flex;
