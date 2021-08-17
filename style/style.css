@@ -1,9 +1,5 @@
 @import "reset.css";
 
-body {
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
 section {
     width: 100%;
     height: 1000px;
@@ -23,7 +19,6 @@ footer {
 }
 
 .skill,
-.experience,
 .box,
 .inline,
 .icons {
@@ -42,7 +37,7 @@ footer {
 .bold {
     font-weight: bold;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 70px;
 }
 
 .medium {
@@ -62,20 +57,14 @@ footer {
 
 .white_point {
     color: #fdd835;
-    font-family: normal;
 }
 
 .black_point {
     color: #FFE176;
-    font-family: normal;
 }
 
 .main {
     height: 620px;
-}
-
-.grow {
-    line-height: 80px;
 }
 
 .aboutMe {
@@ -94,11 +83,6 @@ footer {
 .explain {
     width: 600px;
     line-height: 40px;
-}
-
-.experience {
-    width: 60%;
-    justify-content: space-between;
 }
 
 .projects {
@@ -179,12 +163,10 @@ footer {
 
 @media screen and (max-width : 1500px) {
 
-    .box,
-    .value {
+    .box {
         margin-top: 50px;
     }
 
-    .experience,
     .skill,
     .box {
         flex-direction: column;
@@ -200,7 +182,7 @@ footer {
 @media screen and (max-width : 960px) {
 
     .container {
-        margin: 180px 0 0 80px;
+        margin: 180px 0 0 64px;
     }
 
     .projects {
@@ -208,12 +190,9 @@ footer {
     }
 
     .title,
-    .value{
-        margin-left: 64px;
-    }
-
+    .value,
     .box {
-        margin: 50px 0 0 64px;
+        margin-left: 64px;
     }
 
     .projects {
@@ -223,14 +202,19 @@ footer {
     .contact {
         padding: 50px 0 0 64px;
     }
+
 }
 
 @media screen and (max-width:800px) {
+
+    .explain {
+        width: 100%;
+    }
+
     .projects {
         height: 1700px;
     }
 
-    .experience,
     .wrap {
         display: flex;
         flex-direction: column;
@@ -238,5 +222,35 @@ footer {
 
     .project {
         margin: 0 auto;
+    }
+
+    .box {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:640px) {
+
+    .container {
+        margin: 180px 0 0 32px;
+    }
+    .bold {
+        font-size: 50px;
+    }
+
+    .projects {
+        height: 1800px;
+    }
+
+    .title,
+    .value{
+        margin-left: 32px;
+    }
+
+    .projects {
+        height: 1800px;
+    }
+
+    .contact {
+        padding-left: 32px;
     }
 }
