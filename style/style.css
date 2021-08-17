@@ -242,12 +242,17 @@ footer {
     }
 
     .title,
-    .value{
+    .value,
+    .project{
         margin-left: 32px;
     }
 
     .projects {
         height: 1800px;
+    }
+
+    .box {
+        margin: 0;
     }
 
     .contact {
