@@ -11,11 +11,21 @@ section {
     color: #242424;
 }
 
+.selection1 ::selection {
+    background-color: #fdd835;
+    color: white;
+}
+
 .about,
 .skills,
 footer {
     background-color: #242424;
     color: #ffffff;
+}
+
+.selection2 ::selection {
+    background-color: #FFE176;
+    color: black;
 }
 
 .skill,
@@ -92,10 +102,6 @@ footer {
 .project {
     width: 320px;
     height: 200px;
-}
-
-.number {
-    margin-left: 3px;
 }
 
 .line {
@@ -228,11 +234,13 @@ footer {
         margin-bottom: 0px;
     }
 }
+
 @media screen and (max-width:640px) {
 
     .container {
         margin: 180px 0 0 32px;
     }
+
     .bold {
         font-size: 50px;
     }
@@ -243,7 +251,7 @@ footer {
 
     .title,
     .value,
-    .project{
+    .project {
         margin-left: 32px;
     }
 
