@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>유시온의 포트폴리오 입니다.</title>
-
+    <link rel="stylesheet" type="text/css" href="./jquery.fullpage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./jquery.fullpage.js"></script>
 </head>
 
 <body>
-    <main>
-        <section class="main selection1">
+    <main id="fullpage">
+        <section class="section main selection1 active">
             <div class="container">
                 <h1 class="bold">개발자가 되고싶은 <br>
                     유시온 입니다
@@ -21,7 +23,7 @@
                 <p class="date normal">2021-2023 portfolio</p>
             </div>
         </section>
-        <section class="about selection2">
+        <section class="section about selection2">
             <div class="container">
                 <div class="second_title">
                     <h3 class="grow bold black_point">"성장하는"</h3>
@@ -38,7 +40,7 @@
                 </p>
             </div>
         </section>
-        <section class="skills selection2">
+        <section class="section skills selection2">
             <h2 class="title bold">
                 저는
                 <span class="black_point">_ _ _ _</span>
@@ -62,7 +64,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills selection2">
+        <section class=" section skills selection2">
             <h2 class="title bold">
                 저는
                 <span class="black_point">_ _ _ _</span>
@@ -85,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills selection2">
+        <section class="section skills selection2">
             <h2 class="title bold">
                 저는
                 <span class="black_point">_ _ _ _</span>
@@ -98,7 +100,7 @@
                 <h3 class="value">Vue</h3>
             </div>
         </section>
-        <section class="projects selection1">
+        <section class="section projects selection1">
             <h2 class="title bold">
                 이런걸 만들어 보았습니다
                 <span class="white_point">.</span>
@@ -188,8 +190,8 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="contact selection2">
+        <footer class="section selection2">
+            <div class="contact">
                 <h3 class="medium">
                     구경하고 가세요
                     <span class="black_point">.</span>
@@ -222,9 +224,12 @@
             </div>
         </footer>
     </main>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="src/index.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage();
+        });
+    </script>
 </body>
 
 </html>
