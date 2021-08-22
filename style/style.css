@@ -79,6 +79,7 @@ footer {
 .value {
     padding: 50px 0 0 164px;
 }
+
 .project_title {
     padding: 150px 0 0px 164px;
 }
@@ -176,6 +177,15 @@ footer {
 
 @media screen and (max-width : 960px) {
 
+    .bold {
+        font-size: 50px;
+    }
+
+    .medium,
+    .normal {
+        font-size: 20px;
+    }
+
     .projects {
         height: 1800px;
     }
@@ -218,12 +228,6 @@ footer {
 
     .project_title {
         padding-top: 70px;
-        font-size: 50px;
-    }
-
-    .project .normal,
-    .medium {
-        font-size: 20px;
     }
 
     .box {
@@ -233,16 +237,18 @@ footer {
 
 @media screen and (max-width:640px) {
 
-    .container {
-        padding: 250px 0 0 32px;
-    }
-
     .bold {
-        font-size: 50px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .normal {
-        font-size: 20px;
+        font-size: 17px;
+
+    }
+
+    .container {
+        padding: 250px 0 0 32px;
     }
 
     .projects {
@@ -262,5 +268,25 @@ footer {
 
     .contact {
         padding-left: 32px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .bold {
+        width: 340px;
+    }
+
+    .normal {
+        width: 270px;
+    }
+
+    .container {
+        padding: 150px 0 0 32px;
+    }
+
+    .skill_title,
+    .project_title {
+        padding: 100px 0 0 32px;
     }
 }
