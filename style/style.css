@@ -1,10 +1,5 @@
 @import "reset.css";
 
-section {
-    width: 100%;
-    height: 1000px;
-}
-
 .main,
 .projects {
     background-color: #ffffff;
@@ -62,7 +57,7 @@ footer {
 }
 
 .container {
-    margin: 310px 0 0 164px;
+    padding: 0 0 100px 164px;
 }
 
 .white_point {
@@ -73,21 +68,18 @@ footer {
     color: #FFE176;
 }
 
-.main {
-    height: 620px;
+.aboutMe {}
+
+.title1 {
+    padding: 0 0 20px 164px;
 }
 
-.aboutMe {
-    justify-content: center;
-    margin-top: 70px;
-}
-
-.title {
-    margin: 180px 0 20px 164px;
+.title2 {
+    padding: 180px 0 20px 164px;
 }
 
 .value {
-    margin: 50px 0 0 164px;
+    padding: 50px 0 0 164px;
 }
 
 .explain {
@@ -117,7 +109,7 @@ footer {
 .box {
     width: 70%;
     justify-content: space-between;
-    margin: 50px 0 150px 164px;
+    padding: 50px 0 150px 164px;
 }
 
 .contact {
@@ -170,7 +162,7 @@ footer {
 @media screen and (max-width : 1500px) {
 
     .box {
-        margin-top: 50px;
+        padding-top: 50px;
     }
 
     .skill,
@@ -187,18 +179,16 @@ footer {
 
 @media screen and (max-width : 960px) {
 
-    .container {
-        margin: 180px 0 0 64px;
-    }
-
     .projects {
         height: 1800px;
     }
 
-    .title,
+    .container,
+    .title1,
+    .title2,
     .value,
     .box {
-        margin-left: 64px;
+        padding-left: 64px;
     }
 
     .projects {
@@ -221,24 +211,30 @@ footer {
         height: 1700px;
     }
 
-    .wrap {
-        display: flex;
-        flex-direction: column;
+    .project {
+        width: 270px;
+        height: 250px;
     }
 
-    .project {
-        margin: 0 auto;
+    .title2 {
+        padding-top: 70px;
+        font-size: 50px;
+    }
+
+    .project .normal,
+    .medium {
+        font-size: 20px;
     }
 
     .box {
-        margin-bottom: 0px;
+        padding: 50px 0 150px 64px;
     }
 }
 
 @media screen and (max-width:640px) {
 
     .container {
-        margin: 180px 0 0 32px;
+        padding: 0px 0 0 32px;
     }
 
     .bold {
@@ -249,18 +245,14 @@ footer {
         height: 1800px;
     }
 
-    .title,
+    .title1,
     .value,
     .project {
-        margin-left: 32px;
+        padding-left: 32px;
     }
 
     .projects {
         height: 1800px;
-    }
-
-    .box {
-        margin: 0;
     }
 
     .contact {
