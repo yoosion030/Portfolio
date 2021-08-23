@@ -222,8 +222,7 @@ footer {
     }
 
     .project {
-        width: 270px;
-        height: 250px;
+        width: 80%;
     }
 
     .project_title {
@@ -244,15 +243,10 @@ footer {
 
     .normal {
         font-size: 17px;
-
     }
 
     .container {
         padding: 250px 0 0 32px;
-    }
-
-    .projects {
-        height: 1800px;
     }
 
     .skill_title,
@@ -262,23 +256,16 @@ footer {
         padding-left: 32px;
     }
 
-    .projects {
-        height: 1800px;
-    }
-
     .contact {
         padding-left: 32px;
     }
+
 }
 
 @media screen and (max-width:450px) {
 
     .bold {
         width: 340px;
-    }
-
-    .normal {
-        width: 270px;
     }
 
     .container {
@@ -289,4 +276,5 @@ footer {
     .project_title {
         padding: 100px 0 0 32px;
     }
+
 }
