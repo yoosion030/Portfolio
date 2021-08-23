@@ -65,7 +65,7 @@ footer {
 }
 
 .container {
-    padding: 250px 0 0 164px;
+    padding: 270px 0 0 164px;
 }
 
 .aboutMe {
@@ -107,7 +107,7 @@ footer {
 .box {
     width: 70%;
     justify-content: space-between;
-    padding: 50px 0 100px 164px;
+    padding: 50px 0 50px 164px;
 }
 
 .contact {
