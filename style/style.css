@@ -6,7 +6,7 @@
     color: #242424;
 }
 
-.selection1 ::selection {
+.white-selection ::selection {
     background-color: #fdd835;
     color: white;
 }
@@ -18,7 +18,7 @@ footer {
     color: #ffffff;
 }
 
-.selection2 ::selection {
+.black-selection ::selection {
     background-color: #FFE176;
     color: black;
 }
@@ -56,11 +56,11 @@ footer {
     line-height: 40px;
 }
 
-.white_point {
+.white-point {
     color: #fdd835;
 }
 
-.black_point {
+.black-point {
     color: #FFE176;
 }
 
@@ -72,7 +72,7 @@ footer {
     padding-top: 50px;
 }
 
-.skill_title {
+.skill-title {
     padding: 200px 0 0px 164px;
 }
 
@@ -80,7 +80,7 @@ footer {
     padding: 50px 0 0 164px;
 }
 
-.project_title {
+.project-title {
     padding: 150px 0 0px 164px;
 }
 
@@ -157,6 +157,7 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
+
 @media screen and (max-width : 1500px) {
 
     .box {
@@ -194,8 +195,8 @@ footer {
         padding: 300px 0 0 64px;
     }
 
-    .skill_title,
-    .project_title,
+    .skill-title,
+    .project-title,
     .value,
     .box {
         padding-left: 64px;
@@ -225,7 +226,7 @@ footer {
         width: 80%;
     }
 
-    .project_title {
+    .project-title {
         padding-top: 70px;
     }
 
@@ -249,8 +250,8 @@ footer {
         padding: 250px 0 0 32px;
     }
 
-    .skill_title,
-    .project_title,
+    .skill-title,
+    .project-title,
     .value,
     .box {
         padding-left: 32px;
@@ -272,8 +273,8 @@ footer {
         padding: 150px 0 0 32px;
     }
 
-    .skill_title,
-    .project_title {
+    .skill-title,
+    .project-title {
         padding: 100px 0 0 32px;
     }
 
