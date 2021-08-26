@@ -23,6 +23,7 @@ footer {
     color: black;
 }
 
+
 .about,
 .skills,
 .projects,
@@ -257,6 +258,10 @@ footer {
         padding-left: 32px;
     }
 
+    .line {
+        margin-bottom: 10px;
+    }
+
     .contact {
         padding-left: 32px;
     }
@@ -265,12 +270,30 @@ footer {
 
 @media screen and (max-width:450px) {
 
+    .medium {
+        font-size: 17px;
+    }
+
+    .normal {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
     .bold {
         width: 340px;
     }
 
     .container {
         padding: 150px 0 0 32px;
+    }
+
+    .line {
+        margin-bottom: 10px;
+    }
+
+    .link {
+        width: 25px;
+        height: 25px;
     }
 
     .skill-title,
