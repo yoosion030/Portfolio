@@ -49,12 +49,12 @@ footer {
 .medium {
     font-weight: bold;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .normal {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .white-point {
@@ -81,17 +81,23 @@ footer {
     padding: 50px 0 0 164px;
 }
 
-.project-title {
-    padding: 150px 0 0px 164px;
-}
-
 .explain {
     width: 600px;
-    line-height: 40px;
+    margin-top: 20px;
 }
 
 .projects {
     height: 1100px;
+}
+
+.project-title {
+    padding: 150px 0 0px 164px;
+}
+
+.box {
+    width: 70%;
+    justify-content: space-between;
+    padding: 50px 0 50px 164px;
 }
 
 .project {
@@ -104,10 +110,9 @@ footer {
     color: #bdbdbd;
 }
 
-.box {
-    width: 70%;
+.inline {
     justify-content: space-between;
-    padding: 50px 0 50px 164px;
+    height: 32px;
 }
 
 .project .normal {
@@ -138,16 +143,11 @@ footer {
     height: 50px;
 }
 
-.inline {
-    justify-content: space-between;
-    height: 32px;
-}
-
-.link {
+.code-link {
     filter: brightness(3);
 }
 
-.link:hover {
+.code-link:hover {
     filter: brightness(0);
 }
 
@@ -196,14 +196,6 @@ footer {
         font-size: 20px;
     }
 
-    .project .normal {
-        font-size: 17px;
-        line-height: 30px;
-    }
-
-    .project {
-        width: 75%;
-    }
 
     .container {
         padding-left: 64px;
@@ -216,9 +208,10 @@ footer {
         padding-left: 64px;
     }
 
-    .contact {
-        padding: 50px 0 0 64px;
+    .experience {
+        width: 500px;
     }
+
 
     .project-title {
         padding-top: 70px;
@@ -230,8 +223,17 @@ footer {
         padding-left: 64px;
     }
 
-    .experience {
-        width: 500px;
+    .project {
+        width: 75%;
+    }
+
+    .project .normal {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .contact {
+        padding-top: 50px;
     }
 
 }
@@ -263,18 +265,15 @@ footer {
         padding-left: 32px;
     }
 
+    .skill-title,
+    .project-title {
+        padding-top: 100px;
+        width: 300px;
+        line-height: 55px;
+    }
+
     .experience {
         width: 400px;
-    }
-
-    .link,
-    .logo {
-        width: 25px;
-        height: 25px;
-    }
-
-    .icons {
-        width: 80px;
     }
 
     .inline {
@@ -286,16 +285,18 @@ footer {
         padding-left: 32px;
     }
 
-    .e-mail {
-        height: 35px;
+    .icons {
+        width: 80px;
     }
 
-    
-    .skill-title,
-    .project-title {
-        padding-top: 100px;
-        width: 300px;
-        line-height: 55px;
+    .code-link,
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .e-mail {
+        height: 35px;
     }
 
 }
