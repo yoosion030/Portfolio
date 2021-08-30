@@ -165,8 +165,9 @@ footer {
 
 @media screen and (max-width : 1500px) {
 
-    .box {
-        padding-top: 50px;
+    .wrap {
+        display: flex;
+        flex-direction: row;
     }
 
     .skill,
@@ -174,9 +175,17 @@ footer {
         flex-direction: column;
     }
 
-    .wrap {
-        display: flex;
-        flex-direction: row;
+    .box {
+        padding-top: 50px;
+    }
+
+    .project {
+        height: 170px;
+        margin-bottom: 30px;
+    }
+
+    .line {
+        margin-bottom: 10px;
     }
 
 }
@@ -194,10 +203,11 @@ footer {
 
     .project .normal {
         font-size: 17px;
+        line-height: 30px;
     }
 
-    .projects {
-        height: 1800px;
+    .project {
+        width: 75%;
     }
 
     .container {
@@ -211,28 +221,8 @@ footer {
         padding-left: 64px;
     }
 
-    .projects {
-        height: 1000px;
-    }
-
     .contact {
         padding: 50px 0 0 64px;
-    }
-
-}
-
-@media screen and (max-width:800px) {
-
-    .explain {
-        width: 100%;
-    }
-
-    .projects {
-        height: 1700px;
-    }
-
-    .project {
-        width: 80%;
     }
 
     .project-title {
@@ -240,18 +230,11 @@ footer {
         width: 350px;
     }
 
-    .line {
-        margin-bottom: 7px;
-    }
-
-    .project .normal {
-        font-size: 15px;
-        line-height: 30px;
-    }
-
     .box {
         padding: 50px 0 150px 64px;
     }
+
+
 }
 
 @media screen and (max-width:640px) {
@@ -282,20 +265,44 @@ footer {
         padding-left: 32px;
     }
 
+    .experience {
+        width: 400px;
+    }
+
+    .link,
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icons {
+        width: 80px;
+    }
+
+    .inline {
+        height: 25px;
+    }
+
     .project-title {
         width: 300px;
     }
 
     .contact {
+        height: 60px;
         padding-left: 32px;
+    }
+
+    .e-mail {
+        height: 35px;
     }
 
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:460px) {
 
     .medium {
         font-size: 17px;
+        line-height: 17px;
     }
 
     .normal {
@@ -323,6 +330,8 @@ footer {
     .skill-title,
     .project-title {
         padding: 100px 0 0 32px;
+        width: 300px;
+        line-height: 50px;
     }
 
 }
