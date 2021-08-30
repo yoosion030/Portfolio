@@ -82,7 +82,7 @@ footer {
 
 .explain {
     width: 600px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .projects {
@@ -96,7 +96,7 @@ footer {
 .box {
     width: 70%;
     justify-content: space-between;
-    padding: 50px 0 50px 164px;
+    padding: 50px 0 00px 164px;
 }
 
 .project {
@@ -115,7 +115,7 @@ footer {
 }
 
 .number {
-    margin-left: 2px;
+    padding-left: 2px;
 }
 
 .project .normal {
@@ -142,7 +142,7 @@ footer {
 }
 
 .e-mail {
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .code-link {
@@ -178,7 +178,7 @@ footer {
 
     .project {
         height: 170px;
-        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     .line {
@@ -209,10 +209,13 @@ footer {
         padding-left: 64px;
     }
 
+    .skill-title {
+        padding-top: 150px;
+    }
+
     .experience {
         width: 500px;
     }
-
 
     .project-title {
         padding-top: 70px;
@@ -316,5 +319,8 @@ footer {
     }
     .explain {
         width: 100%;
+    }
+    .title {
+        width: 350px;
     }
 }
