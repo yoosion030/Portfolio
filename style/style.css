@@ -104,7 +104,6 @@ footer {
     color: #bdbdbd;
 }
 
-
 .box {
     width: 70%;
     justify-content: space-between;
@@ -175,10 +174,6 @@ footer {
         flex-direction: column;
     }
 
-    .box {
-        padding-top: 50px;
-    }
-
     .project {
         height: 170px;
         margin-bottom: 30px;
@@ -211,7 +206,7 @@ footer {
     }
 
     .container {
-        padding: 300px 0 0 64px;
+        padding-left: 64px;
     }
 
     .skill-title,
@@ -231,9 +226,13 @@ footer {
     }
 
     .box {
-        padding: 50px 0 150px 64px;
+        padding-bottom: 150px;
+        padding-left: 64px;
     }
 
+    .experience {
+        width: 500px;
+    }
 
 }
 
@@ -252,7 +251,6 @@ footer {
         font-size: 17px;
         line-height: 30px;
     }
-
 
     .container {
         padding: 250px 0 0 32px;
@@ -283,10 +281,6 @@ footer {
         height: 25px;
     }
 
-    .project-title {
-        width: 300px;
-    }
-
     .contact {
         height: 60px;
         padding-left: 32px;
@@ -296,42 +290,12 @@ footer {
         height: 35px;
     }
 
-}
-
-@media screen and (max-width:460px) {
-
-    .medium {
-        font-size: 17px;
-        line-height: 17px;
-    }
-
-    .normal {
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .bold {
-        width: 340px;
-    }
-
-    .container {
-        padding: 150px 0 0 32px;
-    }
-
-    .line {
-        margin-bottom: 10px;
-    }
-
-    .link {
-        width: 25px;
-        height: 25px;
-    }
-
+    
     .skill-title,
     .project-title {
-        padding: 100px 0 0 32px;
+        padding-top: 100px;
         width: 300px;
-        line-height: 50px;
+        line-height: 55px;
     }
 
 }
