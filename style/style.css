@@ -23,7 +23,6 @@ footer {
     color: black;
 }
 
-
 .about,
 .skills,
 .projects,
@@ -115,6 +114,10 @@ footer {
     height: 32px;
 }
 
+.number {
+    margin-left: 2px;
+}
+
 .project .normal {
     font-size: 20px;
 }
@@ -140,7 +143,6 @@ footer {
 
 .e-mail {
     margin-left: 20px;
-    height: 50px;
 }
 
 .code-link {
@@ -191,11 +193,10 @@ footer {
         font-size: 50px;
     }
 
-    .medium,
-    .normal {
+    .medium {
         font-size: 20px;
+        line-height: 30px;
     }
-
 
     .container {
         padding-left: 64px;
@@ -228,12 +229,13 @@ footer {
     }
 
     .project .normal {
-        font-size: 17px;
+        font-size: 15px;
         line-height: 30px;
     }
 
     .contact {
         padding-top: 50px;
+        padding-left: 64px;
     }
 
 }
@@ -244,14 +246,22 @@ footer {
         font-size: 40px;
         line-height: 50px;
     }
+    .normal {
+        font-size: 20px;
+    }
 
     .medium {
+        font-size: 18px;
         line-height: 20px;
     }
 
-    .normal {
-        font-size: 17px;
-        line-height: 30px;
+    .explain {
+        font-size: 20px;
+    }
+
+    .project .normal {
+        font-size: 15px;
+        line-height: 25px;
     }
 
     .container {
@@ -294,9 +304,17 @@ footer {
         width: 25px;
         height: 25px;
     }
-
     .e-mail {
-        height: 35px;
+        line-height: 25px;
     }
 
+}
+
+@media screen and (max-width:460px) {
+    .experience {
+        width: 260px;
+    }
+    .explain {
+        width: 100%;
+    }
 }
