@@ -1,5 +1,13 @@
 @import "reset.css";
 
+:root {
+    --white-point: #fdd835;
+    --black-color: #FFE176;
+    --desktop-padding-left: 164px;
+    --tablet-padding-left: 64px;
+    --mobile-padding-left: 24px;
+}
+
 .main,
 .projects {
     background-color: #ffffff;
@@ -7,7 +15,7 @@
 }
 
 .white-selection ::selection {
-    background-color: #fdd835;
+    background-color: var(--white-point);
     color: white;
 }
 
@@ -19,7 +27,7 @@ footer {
 }
 
 .black-selection ::selection {
-    background-color: #FFE176;
+    background-color: var(--black-color);
     color: black;
 }
 
@@ -57,15 +65,15 @@ footer {
 }
 
 .white-point {
-    color: #fdd835;
+    color: var(--white-point);
 }
 
 .black-point {
-    color: #FFE176;
+    color: var(--black-color);
 }
 
 .container {
-    padding: 270px 0 0 164px;
+    padding: 270px 0 0 var(--desktop-padding-left);
 }
 
 .aboutMe {
@@ -73,11 +81,11 @@ footer {
 }
 
 .skill-title {
-    padding: 200px 0 0px 164px;
+    padding: 200px 0 0px var(--desktop-padding-left);
 }
 
 .value {
-    padding: 50px 0 0 164px;
+    padding: 50px 0 0 var(--desktop-padding-left);
 }
 
 .explain {
@@ -85,18 +93,14 @@ footer {
     padding-top: 20px;
 }
 
-.projects {
-    height: 1100px;
-}
-
 .project-title {
-    padding: 150px 0 0px 164px;
+    padding: 150px 0 0px var(--desktop-padding-left);
 }
 
 .box {
     width: 70%;
     justify-content: space-between;
-    padding: 50px 0 00px 164px;
+    padding: 50px 0 00px var(--desktop-padding-left);
 }
 
 .project {
@@ -125,7 +129,7 @@ footer {
 .contact {
     height: 80px;
     justify-content: space-between;
-    padding: 100px 0 0 164px;
+    padding: 100px 0 0 var(--desktop-padding-left);
 }
 
 .icons {
@@ -199,14 +203,14 @@ footer {
     }
 
     .container {
-        padding-left: 64px;
+        padding-left: var(--tablet-padding-left);
     }
 
     .skill-title,
     .project-title,
     .value,
     .box {
-        padding-left: 64px;
+        padding-left: var(--tablet-padding-left);
     }
 
     .skill-title {
@@ -224,7 +228,7 @@ footer {
 
     .box {
         padding-bottom: 150px;
-        padding-left: 64px;
+        padding-left: var(--tablet-padding-left);
     }
 
     .experience {
@@ -242,7 +246,7 @@ footer {
 
     .contact {
         padding-top: 50px;
-        padding-left: 64px;
+        padding-left: var(--tablet-padding-left);
     }
 
 }
@@ -273,14 +277,14 @@ footer {
     }
 
     .container {
-        padding: 250px 0 0 32px;
+        padding: 250px 0 0 var(--mobile-padding-left);
     }
 
     .skill-title,
     .project-title,
     .value,
     .box {
-        padding-left: 32px;
+        padding-left: var(--mobile-padding-left);
     }
 
     .skill-title,
@@ -301,7 +305,7 @@ footer {
 
     .contact {
         height: 60px;
-        padding-left: 32px;
+        padding-left: var(--mobile-padding-left);
     }
 
     .icons {
@@ -322,7 +326,7 @@ footer {
 
 @media screen and (max-width:460px) {
     .explain {
-        width: 100%;
+        width: 300px;
     }
 
     .title {
