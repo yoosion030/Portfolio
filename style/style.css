@@ -55,12 +55,12 @@ footer {
 
 .medium {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 28px;
     line-height: 40px;
 }
 
 .normal {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 35px;
 }
 
@@ -110,7 +110,6 @@ footer {
 
 .line {
     margin: 0px 0px 20px 0px;
-    color: #bdbdbd;
 }
 
 .inline {
@@ -120,10 +119,6 @@ footer {
 
 .number {
     padding-left: 2px;
-}
-
-.project .normal {
-    font-size: 20px;
 }
 
 .contact {
@@ -198,6 +193,10 @@ footer {
     }
 
     .medium {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .normal {
         font-size: 20px;
         line-height: 30px;
     }
@@ -231,17 +230,8 @@ footer {
         padding-left: var(--tablet-padding-left);
     }
 
-    .experience {
-        width: 330px;
-    }
-
     .project {
         width: 75%;
-    }
-
-    .project .normal {
-        font-size: 15px;
-        line-height: 30px;
     }
 
     .contact {
@@ -258,22 +248,11 @@ footer {
         line-height: 50px;
     }
 
-    .normal {
-        font-size: 20px;
-    }
-
     .medium {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-    .explain {
         font-size: 20px;
     }
-
-    .project .normal {
-        font-size: 15px;
-        line-height: 25px;
+    .normal {
+        font-size: 16px;
     }
 
     .container {
@@ -293,7 +272,6 @@ footer {
         width: 300px;
         line-height: 55px;
     }
-
 
     .experience {
         width: 260px;
@@ -317,16 +295,46 @@ footer {
         width: 25px;
         height: 25px;
     }
-
-    .e-mail {
-        line-height: 25px;
-    }
-
 }
 
 @media screen and (max-width:460px) {
+    .bold {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .normal {
+        font-size: 14px;
+    }
+
+    .medium {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .explain {
+        font-size: 20px;
+    }
+
+    .project .normal {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .skill-title,
+    .project-title {
+        padding-top: 10px;
+        width: 300px;
+        line-height: 55px;
+        font-size: 28px;
+    }
+
     .explain {
         width: 300px;
+    }
+
+    .box {
+        padding-top: 5px;
     }
 
     .title {
