@@ -16,6 +16,11 @@
     z-index: 5;
 }
 
+a {
+    text-decoration: none;
+    color: #242424;
+  }
+
 .white-selection{
     background-color: #faf9fb;
     color: #242424;

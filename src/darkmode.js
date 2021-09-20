@@ -10,7 +10,9 @@ darkMode.addEventListener('click', e => {
         for (let i = 0; i < white.length; i++) {
             white[i].classList.remove('white-selection');
             white[i].classList.add('black-selection');
-            white[i].style = 'color : #ffffff';
+            for (let i = 0; i < a.length; i++) {
+                a[i].style = "color : #fafbf9";
+            }
         }
         for (let i = 0; i < black.length; i++) {
             black[i].classList.remove('black-selection');
@@ -21,6 +23,9 @@ darkMode.addEventListener('click', e => {
         for (let i = 0; i < white.length; i++) {
             white[i].classList.remove('black-selection');
             white[i].classList.add('white-selection');
+            for (let i = 0; i < a.length; i++) {
+                a[i].style = "color : #242424";
+            }
         }
         for (var i = 0; i < black.length; i++) {
             black[i].classList.remove('white-selection');
@@ -29,6 +34,3 @@ darkMode.addEventListener('click', e => {
     }
 });
 
-// for (var i = 0; i < a.length; i++) {
-//     a[i].target = "_blank";
-// }
