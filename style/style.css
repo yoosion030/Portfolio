@@ -6,29 +6,36 @@
     --desktop-padding-left: 164px;
     --tablet-padding-left: 64px;
     --mobile-padding-left: 24px;
+    --white-color : #f9fafb;
 }
 
-.main,
-.projects {
-    background-color: #ffffff;
+#dark-mode {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}
+
+.white-selection{
+    background-color: #faf9fb;
     color: #242424;
+    transition: 1s;
 }
 
 .white-selection ::selection {
     background-color: var(--white-point);
-    color: white;
+    color:#faf9fb
 }
 
-.about,
-.skills,
-footer {
+.black-selection{
     background-color: #242424;
-    color: #ffffff;
+    color: #faf9fb;
+    transition: 1s;
 }
 
 .black-selection ::selection {
     background-color: var(--black-color);
-    color: black;
+    color: #242424;
 }
 
 .about,
@@ -56,7 +63,7 @@ footer {
 .medium {
     font-weight: bold;
     font-size: 28px;
-    line-height: 32px;
+    line-height: 32px;   
 }
 
 .normal {
