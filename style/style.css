@@ -72,7 +72,7 @@ footer {
     color: var(--black-color);
 }
 
-.container {
+.title {
     padding: 270px 0 0 var(--desktop-padding-left);
 }
 
@@ -201,7 +201,7 @@ footer {
 
 @media screen and (max-width : 960px) {
 
-    .container {
+    .title {
         padding-left: var(--tablet-padding-left);
     }
 
@@ -256,7 +256,7 @@ footer {
         font-size: 16px;
     }
 
-    .container {
+    .title {
         padding: 250px 0 0 var(--mobile-padding-left);
     }
 
@@ -311,7 +311,7 @@ footer {
         line-height: 25px;
     }
 
-    .container {
+    .title {
         padding-top: 200px;
     }
 
