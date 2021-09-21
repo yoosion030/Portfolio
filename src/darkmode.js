@@ -1,9 +1,6 @@
 const white = document.querySelectorAll('.white-selection');
 const black = document.querySelectorAll('.black-selection');
 const darkMode = document.querySelector('#dark-mode');
-const haha = document.getElementsByClassName('white-selection');
-
-
 
 darkMode.addEventListener('click', e => {
     if (e.target.checked) {
@@ -27,7 +24,7 @@ darkMode.addEventListener('click', e => {
                 a[i].style = "color : #242424";
             }
         }
-        for (var i = 0; i < black.length; i++) {
+        for (let i = 0; i < black.length; i++) {
             black[i].classList.remove('white-selection');
             black[i].classList.add('black-selection');
         }
