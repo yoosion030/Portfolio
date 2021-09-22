@@ -2,20 +2,21 @@
 
 :root {
     --white-point: #fdd835;
-    --black-color: #FFE176;
+    --black-point: #FFE176;
     --desktop-padding-left: 164px;
     --tablet-padding-left: 64px;
     --mobile-padding-left: 24px;
     --white-color: #f9fafb;
-}
-
-#dark-mode {
-    display: none;
+    --black-color: #242424;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
+}
+
+#dark-mode {
+    display: none;
 }
 
 .switch {
@@ -27,33 +28,33 @@ header {
     background-image: url(https://yoosion030.github.io/Portfolio/images/off.png);
     cursor: pointer;
     transition: 1s;
-    margin: 20px 30px 0 0;
+    margin: 30px 30px 0 0;
 }
 
 #dark-mode:checked+label {
     background-image: url(https://yoosion030.github.io/Portfolio/images/on.png);
 }
 
-.white-selection {
-    background-color: #faf9fb;
-    color: #242424;
+.white {
+    background-color: var(--white-color);
+    color: var(--black-color);
     transition: 1s;
 }
 
-.white-selection ::selection {
+.white ::selection {
     background-color: var(--white-point);
-    color: #faf9fb
+    color: var(--white-color)
 }
 
-.black-selection {
-    background-color: #242424;
-    color: #faf9fb;
+.black {
+    background-color: var(--black-color);
+    color: var(--white-color);
     transition: 1s;
 }
 
-.black-selection ::selection {
-    background-color: var(--black-color);
-    color: #242424;
+.black ::selection {
+    background-color: var(--black-point);
+    color: var(--black-color);
 }
 
 .about,
@@ -94,7 +95,7 @@ header {
 }
 
 .black-point {
-    color: var(--black-color);
+    color: var(--black-point);
 }
 
 .title {
