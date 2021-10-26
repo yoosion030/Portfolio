@@ -135,6 +135,10 @@ header {
     padding-top: 50px;
 }
 
+.project a {
+    color: var(--black-color);
+}
+
 .line {
     margin: 0px 0px 20px 0px;
 }
@@ -168,6 +172,8 @@ header {
 
 .e-mail {
     padding-left: 20px;
+    transition: 1s;
+    color: var(--white-color);
 }
 
 .code-link {
@@ -257,6 +263,7 @@ header {
 
     .project {
         width: 75%;
+        padding-top: 25px;
     }
 
     .contact {
@@ -352,21 +359,11 @@ header {
     }
 
     .experience {
-        width: 180px;
-    }
-
-    .code-link,
-    .logo {
-        width: 20px;
-        height: 20px;
+        width: 210px;
     }
 
     .explain {
         width: 300px;
-    }
-
-    .icons {
-        width: 60px;
     }
 
     .project {
@@ -375,7 +372,11 @@ header {
     }
 
     .project-title {
-        width: 200px;
+        width: 230px;
+    }
+
+    .icons {
+        width: 60px;
     }
 
     .code-link,
