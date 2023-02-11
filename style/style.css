@@ -171,7 +171,6 @@ header {
 }
 
 .e-mail {
-  padding-left: 20px;
   transition: 1s;
   color: var(--white-color);
 }
